@@ -26,7 +26,7 @@ static const LPCTSTR regValUseInputFolder = L"useInputFolder";
 
 LRESULT TranscribeDlg::OnInitDialog( UINT nMessage, WPARAM wParam, LPARAM lParam, BOOL& bHandled )
 {
-	// First DDX call, hooks up variables to controls.
+	// First DDX call, hooks up variables to contro 
 	DoDataExchange( false );
 	printModelDescription();
 	languageSelector.initialize( m_hWnd, IDC_LANGUAGE, appState );
